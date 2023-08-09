@@ -180,7 +180,7 @@ nav {
   height: 25px;
 }
 .fs-9 {
-  font-size: 60px;
+  font-size: 55px;
 }
 .midle-card-head-bg {
   background-color: #222530;
@@ -198,11 +198,11 @@ nav {
     height: 50vh;
   }
   .background2 {
-    height: 180vh;
+    height: 141vh;
   }
 }
 .item-body{
-  height: 400px;  
+  height: 320px;  
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -213,7 +213,7 @@ nav {
   width: 80px !important;
 }
 .main-img{
-  width: 100px;
+  width: 80px;
   margin-bottom: 10px;
 }
 .item-footer{
