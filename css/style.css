@@ -157,7 +157,6 @@ nav {
 /* //******************************************************************************************* */
 #section {
   position: relative;
-
 }
 .background1 {
   background-image: url(../assets/banner.png);
@@ -198,25 +197,25 @@ nav {
     height: 50vh;
   }
   .background2 {
-    height: 850px;
+    height: 900px;
   }
 }
-.item-body{
-  height: 320px;  
+.item-body {
+  height: 320px;
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.item-img2-3{
+.item-img2-3 {
   width: 80px !important;
 }
-.main-img{
+.main-img {
   width: 80px;
   margin-bottom: 10px;
 }
-.item-footer{
+.item-footer {
   position: absolute;
   bottom: 5%;
   left: 0%;
