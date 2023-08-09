@@ -49,7 +49,7 @@ let monthes = [
   "December",
 ];
 
-async function getWeather(city = `cairo`) {
+async function getWeather(city='cairo') {
   let apiRespose = await fetch(
     `https://api.weatherapi.com/v1/forecast.json?key=e34cd4dd46884d30983114130230708&q=${city}&days=3`
   );
@@ -120,6 +120,7 @@ function searchCity() {
     getWeather();
   }
 }
+getWeather()
 searchCity();
 
 
